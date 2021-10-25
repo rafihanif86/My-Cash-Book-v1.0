@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Cash Book v1.0</string>
+    <string name="email">Email</string>
+    <string name="new_here_create_here">New Here? Create Here</string>
+</resources>

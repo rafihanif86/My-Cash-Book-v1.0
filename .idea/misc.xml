@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/drawable/button_rounded.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/drawable/card_rounded.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/drawable/custom_email_icon.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/drawable/custom_input.xml" value="0.1265625" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/drawable/ic_payments_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/drawable/ic_person.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/drawable/ic_wallet.xml" value="0.2203125" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/font/electrolize.xml" value="0.12083333333333333" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/layout/activity_cash_flow.xml" value="0.11770833333333333" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/layout/activity_login.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/layout/activity_pemasukan.xml" value="0.15384615384615385" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/layout/activity_pengaturan.xml" value="0.22" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/layout/activity_pengeluaran.xml" value="0.18" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/layout/activity_register.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/layout/card_item.xml" value="0.25" />
+        <entry key="..\:/Users/rafiz/AndroidStudioProjects/MyCashBookv10/app/src/main/res/layout/desain_list.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
