@@ -94,7 +94,7 @@ public class PengeluaranActivity extends AppCompatActivity implements View.OnCli
                         new DatePickerDialog.OnDateSetListener() {
                             @Override
                             public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
-                                txttanggal.setText(dayOfMonth + "-" + (monthOfYear + 1) + "-" + year);
+                                txttanggal.setText(year + "-" + (monthOfYear + 1) + "-" + dayOfMonth);
                             }
                         }, mYear, mMonth, mDay);
                 datePickerDialog.show();
@@ -107,12 +107,11 @@ public class PengeluaranActivity extends AppCompatActivity implements View.OnCli
 
                 TimePickerDialog timePickerDialog = new TimePickerDialog(this,
                         new TimePickerDialog.OnTimeSetListener() {
-
                             @Override
                             public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
-                                txtwaktu.setText(hourOfDay + ":" + minute);
+                                txtwaktu.setText(hourOfDay + ":" + minute );
                             }
-                        }, mHour, mMinute, false);
+                        }, mHour, mMinute, true);
                 timePickerDialog.show();
                 break;
         }

@@ -40,14 +40,14 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(@NonNull RecyclerViewAdapter.ViewHolder holder, int position) {
         final Model model = modelArrayList.get(position);
         holder.txtJenis.setText(model.getJenis());
-        holder.txtNominal.setText(model.getNominal());
+        holder.txtNominal.setText("Rp. " + model.getNominal());
         holder.txtKeterangan.setText(model.getKeterangan());
         holder.txtTanggal.setText(model.getTanggal());
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return modelArrayList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

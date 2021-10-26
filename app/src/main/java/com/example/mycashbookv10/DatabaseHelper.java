@@ -105,4 +105,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         long update = db.update("user", contentValues, "id =" + userId, null);
         return update != -1;
     }
+
+    //jumlah pemasukan
+    public Cursor kas(String id){
+        Cursor cur = db.rawQuery("SELECT * FROM kas WHERE userid = ? ORDER BY tanggal DESC", new String[]{id});
+        return cur;
+    }
 }

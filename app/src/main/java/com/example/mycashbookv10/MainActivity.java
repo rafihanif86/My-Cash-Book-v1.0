@@ -55,20 +55,18 @@ public class MainActivity extends AppCompatActivity {
         //mengambil nominal pemasukan
         Cursor crPemasukan = db.jumlahKas(userID,"in");
         String strpemasukan = "0";
-//        Log.d("cound data", String.valueOf(crPemasukan));
-        if (crPemasukan.getCount() > 0){
+        if (crPemasukan.getCount() > 0 ){
             crPemasukan.moveToFirst();
             strpemasukan = crPemasukan.getString(1).toString();
-         }
+        }
         textPemasukan.setText("Rp. " + strpemasukan);
 
         //mengambil nominal pengeluaran
         Cursor crPengeluaran = db.jumlahKas(userID,"out");
         String strpengeluaran = "0";
-        if (crPengeluaran.getCount() > 0) {
+        if (crPengeluaran.getCount() > 0 ) {
             crPengeluaran.moveToFirst();
             strpengeluaran = crPengeluaran.getString(1).toString();
-
         }
         textPengeluaran.setText("Rp. " + strpengeluaran);
 

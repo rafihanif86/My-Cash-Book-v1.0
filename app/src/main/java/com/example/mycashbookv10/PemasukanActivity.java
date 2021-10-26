@@ -22,7 +22,7 @@ public class PemasukanActivity extends AppCompatActivity implements View.OnClick
     Button kembali, btntanggal, btnwaktu, simpan;
     private EditText txttanggal, txtwaktu, nominal, keterangan;
 
-    private int mYear, mMonth, mDay, mHour, mMinute;
+    private int mYear, mMonth, mDay, mHour, mMinute, mSecond;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,7 +94,7 @@ public class PemasukanActivity extends AppCompatActivity implements View.OnClick
                         new DatePickerDialog.OnDateSetListener() {
                             @Override
                             public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
-                                txttanggal.setText(dayOfMonth + "-" + (monthOfYear + 1) + "-" + year);
+                                txttanggal.setText(year + "-" + (monthOfYear + 1) + "-" + dayOfMonth);
                             }
                         }, mYear, mMonth, mDay);
                 datePickerDialog.show();
@@ -104,15 +104,15 @@ public class PemasukanActivity extends AppCompatActivity implements View.OnClick
                 c = Calendar.getInstance();
                 mHour = c.get(Calendar.HOUR_OF_DAY);
                 mMinute = c.get(Calendar.MINUTE);
+//                mSecond = c.get(Calendar.SECOND);
 
                 TimePickerDialog timePickerDialog = new TimePickerDialog(this,
                         new TimePickerDialog.OnTimeSetListener() {
-
                             @Override
-                            public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
-                                txtwaktu.setText(hourOfDay + ":" + minute);
+                            public void onTimeSet(TimePicker timePicker, int hourOfDay, int minute) {
+                                txtwaktu.setText(hourOfDay + ":" + minute );
                             }
-                        }, mHour, mMinute, false);
+                        }, mHour, mMinute, true);
                 timePickerDialog.show();
                 break;
         }
